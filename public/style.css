@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-username {
+    border: 1.5px solid black;
+    padding: 2rem;
+    width: 80%;
+    display: block; 
+    max-width: 300px;
+}
+
+.form-username h1{
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 1.2rem;
+}
+
+.form-username p{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+#username-input{
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    color: black;
+    width: 90%;
+}
+
+#join-btn,
+#send-btn {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.chatroom-container {
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.chat-cont{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.chatroom-header{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    overflow-y: auto;
+}
+.message {
+    background-color: #e1e1e1;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+}
+
+.sent {
+    align-self: flex-end;
+}
+#inputdiv{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+    
+}
+#inputdiv input{
+    flex-grow: 1;
+    height: 100%;
+    
+}
+#inputdiv button{
+    width: 20%;
+    
+    
+    height: 100%;
+}
